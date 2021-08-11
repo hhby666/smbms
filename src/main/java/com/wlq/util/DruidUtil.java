@@ -83,6 +83,17 @@ public class DruidUtil {
                 e.printStackTrace();
             }
         }
+        release(conn);
+    }
+
+    /**
+     * 仅关闭数据库连接
+     *
+     * @param conn 数据库连接
+     * @author 王林清
+     * @since 2021/8/11 18:17
+     */
+    public static void release(Connection conn) {
         if (conn != null) {
             try {
                 conn.close();
