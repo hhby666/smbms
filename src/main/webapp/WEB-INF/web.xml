@@ -24,6 +24,15 @@
         <url-pattern>/login.do</url-pattern>
     </servlet-mapping>
 
+    <!--注销-->
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>com.wlq.servlet.user.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/logout.do</url-pattern>
+    </servlet-mapping>
     <!--配置过滤器-->
     <!--字符编码过滤器-->
     <filter>

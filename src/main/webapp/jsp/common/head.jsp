@@ -12,8 +12,8 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>超市订单管理系统</title>
-    <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css" />
-    <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/css/public.css" />
+    <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css"/>
+    <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/css/public.css"/>
 </head>
 <body>
 <!--头部-->
@@ -45,4 +45,4 @@
     </div>
     <input type="hidden" id="path" name="path" value="${pageContext.request.contextPath }"/>
     <input type="hidden" id="referer" name="referer" value="<%=request.getHeader("Referer")%>"/>
-
+</section>
